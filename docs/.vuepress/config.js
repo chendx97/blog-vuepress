@@ -36,7 +36,7 @@ module.exports = {
         ]
       }
     ],
-    sidebarDepth: 0,
+    // sidebarDepth: 0,
   },
   base: '/blog/',
 }
