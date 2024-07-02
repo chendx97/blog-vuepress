@@ -19,6 +19,8 @@ module.exports = {
         children: [
           { title: "一个看起来只有2个字长度却有8的字符串引起的bug", path: "/html/零宽字符" },
           { title: "canvas之measureText测量文本", path: "/html/canvas-measureText" },
+          { title: "用canvas实现一个简单的画板", path: "/html/画板" },
+          { title: "刮刮乐效果原来如此简单", path: "/html/刮刮乐" },
         ],
       },
       {
@@ -30,6 +32,7 @@ module.exports = {
           { title: "【翻译】如何实现一个纯CSS计时器", path: "/css/timer" },
           { title: "给svg设置cursor不生效", path: "/css/svg-cursor" },
           { title: "常见的hover菜单缝隙问题", path: "/css/menu" },
+          { title: "实现自动引入+按需引入element-plus原来如此简单", path: "/css/element-plus自动按需引入" },
         ],
       },
       {
@@ -55,6 +58,7 @@ module.exports = {
         collapsable: false,
         children: [
           { title: "实现自定义脚手架", path: "/custom-utils/frame" },
+          { title: "从0到1实现一个npm库", path: "/custom-utils/npm" },
         ],
       },
       {
@@ -63,6 +67,22 @@ module.exports = {
         collapsable: false,
         children: [
           { title: "git LFS解决大文件上传", path: "/git/lfs" },
+        ],
+      },
+      {
+        title: "源码",
+        path: "/source-code/fetch-event-source",
+        collapsable: false,
+        children: [
+          { title: "我的第一篇源码阅读之fetch-event-source", path: "/source-code/fetch-event-source" },
+        ],
+      },
+      {
+        title: "接口请求",
+        path: "/request/SSE",
+        collapsable: false,
+        children: [
+          { title: "服务端主动推送消息Server-client events(SSE)", path: "/request/SSE" },
         ],
       },
       {
