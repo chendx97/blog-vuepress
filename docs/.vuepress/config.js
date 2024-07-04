@@ -75,6 +75,7 @@ module.exports = {
         collapsable: false,
         children: [
           { title: "我的第一篇源码阅读之fetch-event-source", path: "/source-code/fetch-event-source" },
+          { title: "【翻译】200行JS实现的虚拟DOM", path: "/source-code/virtual-node" },
         ],
       },
       {
